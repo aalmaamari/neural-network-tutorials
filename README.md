@@ -27,7 +27,7 @@ where:
 - \( b \) is the bias
 - \( f(x) \) is the activation function (in our case, a step function).
 
-![alt text](docs/img/perceptron-diagram.png)
+![alt text](perceptron/docs/img/perceptron-diagram.png)
 
 ### **2️⃣ The Perceptron Learning Rule**
 The perceptron **updates its weights and bias** using the following rule:
@@ -83,13 +83,13 @@ One of the **most insightful aspects** of this project is visualizing **how the 
 The following images illustrate how the perceptron's decision boundary evolves during training:
 
 #### **Trail 1**
-![Trail 1](docs/img/plot_1.png)
+![Trail 1](perceptron/docs/img/plot_1.png)
 
 #### **Trail 3**
-![Trail 3](docs/img/plot_2.png)
+![Trail 3](perceptron/docs/img/plot_2.png)
 
 #### **Trail 7**
-![Trail 7](docs/img/plot_3.png)
+![Trail 7](perceptron/docs/img/plot_3.png)
 
 At the beginning of training:
 - The perceptron’s decision boundary is **randomly initialized**.
